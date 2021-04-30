@@ -1,0 +1,59 @@
+PODS:
+  - IQKeyboardManagerSwift (6.3.0)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - NCMB (3.1.0)
+  - NYXImagesKit (2.3)
+  - SVProgressHUD (2.2.5)
+  - SwiftDate (6.3.1)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - Kingfisher
+  - KRProgressHUD
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - NYXImagesKit
+  - SVProgressHUD
+  - SwiftDate (~> 6.1)
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - NYXImagesKit
+    - SVProgressHUD
+    - SwiftDate
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 8abc6e8708f1ab306e1dcaf13da4019257e91fb1
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: c8ff10d4b965061022eda2682bca8a03ba941544
+
+COCOAPODS: 1.8.4
